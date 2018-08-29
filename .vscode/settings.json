@@ -1,4 +1,10 @@
 {
   "flow.useNPMPackagedFlow": true,
-  "flow.runOnAllFiles": true
+  "flow.runOnAllFiles": true,
+  "spellright.language": "en",
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext"
+  ]
 }
