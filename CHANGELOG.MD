@@ -20,3 +20,16 @@ Added husy to project to manage git hooks
 Run ./node_modules/.bin/flow-typed install to get flow definitions
 Added changelog to project.
 Added spellchecker to vs studio code.
+
+---
+
+# 0.3
+
+Added express for server and compression to enable Gzip compression on server
+Created basic express server.
+Added nodemon to project to automatically restart
+server on filechanges.
+Added PM2 node process manager.
+Added rimraf to project for cross platfrom deleting of generated assets.
+Added cross-env to project to be able to pass NODE_ENV to PM2 cross platform.
+Added postinstall hook to automatically run flow-typed for newly installed packages
