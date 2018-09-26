@@ -33,3 +33,12 @@ Added PM2 node process manager.
 Added rimraf to project for cross platfrom deleting of generated assets.
 Added cross-env to project to be able to pass NODE_ENV to PM2 cross platform.
 Added postinstall hook to automatically run flow-typed for newly installed packages
+
+---
+
+# 0.4
+
+Added browser to env prop in eslintrc to prevent document is undefined flow error.
+Added babel polyfill for promises and async and such.
+Added some config options for frontend.
+Added webpack and babel to project.
